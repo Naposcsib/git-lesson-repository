@@ -13,10 +13,6 @@ public class DefineBasicInfo {
 
         boolean married = true;
         System.out.print(married);
-        // Hozz létre pár dolgot változóként és utána írasd ki az értékeiket:
-        // - A neved karakterláncként (string)
-        // - Korod egész számként (integer)
-        // - Magasságod méterben törtszámként (float / double)
-        // - Házas vagy-e logikai értékként (boolean)
+
     }
 }
