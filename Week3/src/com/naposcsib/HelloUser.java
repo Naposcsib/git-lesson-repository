@@ -6,8 +6,8 @@ public class HelloUser {
         System.out.println("Írd be a neved!");
 
         Scanner scanner = new Scanner(System.in);
-        String userInput1 = scanner.nextLine();
+        String userInput = scanner.nextLine();
 
-        System.out.println("Hello," + userInput1 + "!");
+        System.out.println("Hello," + userInput + "!");
     }
 }
