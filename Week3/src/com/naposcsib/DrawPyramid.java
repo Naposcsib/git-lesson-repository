@@ -9,7 +9,7 @@ public class DrawPyramid {
 
        for (int a = 1; a < lineCount * 2; a +=2){
            for (int b = 1; b < a; b++) {
-               for (int c = lineCount / 2; c < 1 ; c -= 2){
+               for (int c = lineCount / 2; c >= 0 ; c -= 2){
                    System.out.print("  ");
                }
                System.out.print("*");
