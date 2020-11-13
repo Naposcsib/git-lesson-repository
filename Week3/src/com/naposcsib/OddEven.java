@@ -15,8 +15,5 @@ public class OddEven {
             }
         }
 
-        // Írj egy programot ami beolvas egy számot a standard input-ból (scanner),
-        // majd kiírja, hogy "Páros", ha páros és
-        // kiírja, hogy "Páratlan", ha páratlan.
     }
 
