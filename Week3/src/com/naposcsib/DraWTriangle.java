@@ -6,13 +6,14 @@ public class DraWTriangle {
         System.out.println("Kérek egy egész számot!");
         int lineCount = scanner.nextInt();
 
-        for (int b = 0; b < lineCount; b++) {
-            for (int a = 0; a < b; a++) {
+        for (int a = 0; a < lineCount; a++) {
+            for (int b = 0; b < a; b++) {
 
                 System.out.print("* ");
             }
             System.out.println("*");
         }
+
 
 
     }
