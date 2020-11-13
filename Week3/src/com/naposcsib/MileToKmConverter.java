@@ -8,7 +8,7 @@ public class MileToKmConverter {
         System.out.println("Írd be a mérföldet!");
 
         Scanner scanner = new Scanner(System.in);
-        double userInput = scanner.nextInt();
+        double userInput = scanner.nextDouble();
 
         System.out.println(1.61 * userInput + " kilométer");
 
