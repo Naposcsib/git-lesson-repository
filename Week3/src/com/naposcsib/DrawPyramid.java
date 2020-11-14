@@ -11,20 +11,14 @@ public class DrawPyramid {
        for (int a = 0; a < lineCount; a++){
 
                for (int b = lineCount - a; b > 0; b--) {
-
                    System.out.print(" ");
-
                }
 
             System.out.print("*");
-               for (int c = 2; c < 2 * a + 2; c++){
+               for (int c = 0; c < 2 * a; c++){
                    System.out.print("*");
-
-
                }
                System.out.println(" ");
        }
-
-
     }
 }
