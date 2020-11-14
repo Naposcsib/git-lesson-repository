@@ -1,6 +1,6 @@
 package com.naposcsib;
 import java.util.Scanner;
-public class ParametricAverige {
+public class ParametricAverage {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
