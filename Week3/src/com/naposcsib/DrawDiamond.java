@@ -33,17 +33,3 @@ public class DrawDiamond {
     }
 
 }
-// Írj egy programot, ami egy számot kér a standard input-ból és egy
-// ilyen rombuszt rajzol:
-//
-//
-//    *
-//   ***
-//  *****
-// *******
-//  *****
-//   ***
-//    *
-//
-// A rombusznak annyi sora legyen,
-// mint amennyi az inputból kiolvasott szám értéke

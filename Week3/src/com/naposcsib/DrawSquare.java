@@ -33,16 +33,3 @@ public class DrawSquare {
         }
     }
 }
-// Írj egy programot, ami egy számot kér a standard input-ból és egy
-// ilyen négyzetet rajzol:
-//
-//
-// %%%%%%
-// %    %
-// %    %
-// %    %
-// %    %
-// %%%%%%
-//
-// A négyzetnek annyi sora legyen,
-// mint amennyi az inputból kiolvasott szám értéke
