@@ -7,28 +7,24 @@ public class DrawPyramid {
         System.out.println("Kérek egy egész számot!");
         int lineCount = scanner.nextInt();
 
-       for (int a = 1; a < lineCount * 2; a +=2){
-           for (int b = 1; b < a; b++) {
-               for (int c = lineCount / 2; c >= 0 ; c -= 2){
-                   System.out.print("  ");
-               }
-               System.out.print("*");
 
-           }
-           System.out.println("*");
+       for (int a = 0; a < lineCount; a++){
+
+               for (int b = lineCount - a; b > 0; b--) {
+
+                   System.out.print(" ");
+
+               }
+
+            System.out.print("*");
+               for (int c = 2; c < 2 * a + 2; c++){
+                   System.out.print("*");
+
+
+               }
+               System.out.println(" ");
        }
 
 
     }
 }
-// Írj egy programot, ami egy számot kér a standard input-ból és egy
-// ilyen piramist rajzol:
-//
-//
-//    *
-//   ***
-//  *****
-// *******
-//
-// A piramisnak annyi sora legyen,
-// mint amennyi az inputból kiolvasott szám értéke
