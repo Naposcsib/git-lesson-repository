@@ -1,6 +1,6 @@
 package com.naposcsib;
 
-public class MultiplicationOfElements {
+public class SumElements {
     public static void main(String[] args) {
 
         int[] numbers = new int[4];
