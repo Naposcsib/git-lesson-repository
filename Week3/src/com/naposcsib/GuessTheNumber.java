@@ -9,6 +9,7 @@ public class GuessTheNumber {
 
         System.out.println("Kérek egy számot!");
             int userGuess = scanner.nextInt();
+
             if (userGuess == number) {
                 System.out.println("Eltaláltad!");
                 break;
@@ -23,12 +24,3 @@ public class GuessTheNumber {
 
     }
 }
-// Írj egy programot ami tárol egy számot és
-// a felhasználónak kell kitalálnia azt.
-// A felhasználó találgathat és
-// minden standard input-ba beírt szám után
-// a programnak ki kell írnia egyet ezek közül:
-//
-// A tárolt szám nagyobb
-// A tárolt szám kisebb
-// Eltaláltad a számot
