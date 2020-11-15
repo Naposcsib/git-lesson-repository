@@ -18,6 +18,3 @@ public class SwapElements {
         System.out.println(Arrays.toString(orders));
     }
 }
-// - Készíts egy `orders` nevű változót (tömböt)
-//   a következő tartalommal (értékekkel): `["first", "second", "third"]`
-// - Cseréld fel az első és a harmadik elemet az `orders` tömbben
