@@ -6,8 +6,9 @@ public class Doubling {
 
         System.out.println(doubling(baseNum));
     }
-public static int doubling (int a){
-    return a + a;
+public static int doubling (int number){
+
+        return number + number;
  }
 }
 
