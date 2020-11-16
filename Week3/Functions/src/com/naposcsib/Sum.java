@@ -17,7 +17,3 @@ public class Sum {
         return a;
     }
 }
-// - Hozz létre egy class-t `Sum` névvel és benne a main függvényt.
-
-// - Készíts egy függvényt `sum` névvel mely összeadja a számokat
-//   nullától a bemeneti paraméterig és visszaadja azok összegét.
