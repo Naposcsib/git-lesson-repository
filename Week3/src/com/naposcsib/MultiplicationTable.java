@@ -1,7 +1,6 @@
 package com.naposcsib;
+import java.util.Scanner;
 
-import java.util.Scanner;
-import java.util.Scanner;
 public class MultiplicationTable {
 
 

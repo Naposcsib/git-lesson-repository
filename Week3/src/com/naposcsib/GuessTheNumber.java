@@ -6,8 +6,7 @@ public class GuessTheNumber {
         int number = 17;
 
         for (int i = 0; i != number  ; i++ ) {
-
-        System.out.println("Kérek egy számot!");
+            System.out.println("Kérek egy számot!");
             int userGuess = scanner.nextInt();
 
             if (userGuess == number) {
@@ -18,6 +17,7 @@ public class GuessTheNumber {
             } else {
                 System.out.println("Kisebb..");
             }
+
             i = userGuess;
         }
 

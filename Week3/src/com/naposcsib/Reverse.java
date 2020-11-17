@@ -15,13 +15,7 @@ public class Reverse {
             for (int j = 0; j < numbers.length; j++) {
                 numbers[j] = swap[numbers.length - 1 - j];
                 System.out.println(numbers[j]);
+
             }
         }
     }
-
-    /*int[] swap = new int[4];
-        System.arraycopy(numbers, 0, swap, 0, numbers.length);
-                for (int j = 0; j < numbers.length; j++) {
-        numbers[j] = swap[numbers.length - 1 - j];
-        System.out.println(numbers[j]);
-        }*/

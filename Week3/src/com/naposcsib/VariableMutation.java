@@ -4,39 +4,37 @@ public class VariableMutation {
     public static void main(String[] args) {
         int a = 3;
         a += 10;
+        System.out.println(a);
         // Növeld meg az "a" változó értékét 10-zel
 
-        System.out.println(a);
 
         int b = 100;
-        b -= 100;
-        // Csökkentsd a "b" változó értékeét 7-tel
-
+        b -= 7;
         System.out.println(b);
+        // Csökkentsd a "b" változó értékét 7-tel
+
 
         int c = 44;
         c += c;
+        System.out.println(c);
         // A c értéke legyen dupla akkora
 
-        System.out.println(c);
 
         int d = 125;
         d /= 5;
+        System.out.println(d);
         // Oszd el a d-t 5-tel
 
-        System.out.println(d);
 
         int e = 8;
         e *= e * e;
+        System.out.println(e);
         // Emeld köbre az e változó értékét
 
-        System.out.println(e);
 
         int f1 = 123;
         int f2 = 345;
-        boolean f = f1 > f2;
-
-        System.out.println(f);
+        System.out.println(f1 > f2);
         // Logikai (boolean) értékként írasd ki hogy f1 nagyobb-e f2-nél
 
         int g1 = 350;
