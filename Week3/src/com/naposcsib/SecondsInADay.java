@@ -8,7 +8,5 @@ public class SecondsInADay {
 
         int seconds = (23 - currentHours) * 3600 + (59 - currentMinutes) * 60 + (60 - currentSeconds);
         System.out.println(seconds + " másodperc van hátra a napból.");
-
-
     }
 }

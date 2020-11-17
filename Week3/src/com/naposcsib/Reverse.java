@@ -9,13 +9,13 @@ public class Reverse {
         numbers[3] = 7;
 
         int[] swap = new int[4];
+
         for (int i = 0; i < numbers.length; i++){
             swap[i] = numbers[i];
             }
             for (int j = 0; j < numbers.length; j++) {
                 numbers[j] = swap[numbers.length - 1 - j];
                 System.out.println(numbers[j]);
-
             }
         }
     }

@@ -2,7 +2,6 @@ package com.naposcsib;
 
 public class SumElements {
     public static void main(String[] args) {
-
         int[] numbers = new int[4];
         numbers[0] = 54;
         numbers[1] = 23;
