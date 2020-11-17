@@ -20,6 +20,7 @@ public class ConditionalVariableMutation {
         } else {
             out2 = "Sok!";
         }
+
         System.out.println(out2);
 
 
@@ -28,9 +29,9 @@ public class ConditionalVariableMutation {
         int credits = 100;
         boolean isBonus = false;
 
-        if (credits >= 50 && isBonus == false) {
+        if (credits >= 50 && !isBonus) {
             c -= 2;
-        } else if (credits < 50 && isBonus == false) {
+        } else if (credits < 50 && !isBonus) {
             c--;
         }
 
