@@ -7,7 +7,6 @@ public class DrawPyramid {
         System.out.println("Kérek egy egész számot!");
         int lineCount = scanner.nextInt();
 
-
        for (int a = 0; a < lineCount; a++){
 
                for (int b = lineCount - a; b > 0; b--) {
@@ -15,9 +14,11 @@ public class DrawPyramid {
                }
 
             System.out.print("*");
+
                for (int c = 0; c < 2 * a; c++){
                    System.out.print("*");
                }
+
                System.out.println(" ");
        }
     }

@@ -7,6 +7,7 @@ public class DrawChessTable {
         System.out.println("Írj be egy karaktert!");
         String chessCube = scanner.next();
         System.out.print(" ");
+
         for (int i = 1; i <= 8; i++) {
             for (int j = 1; j <= 8; j++) {
                 if (j % 2 == 0) {
