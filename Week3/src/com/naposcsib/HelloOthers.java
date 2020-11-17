@@ -7,6 +7,5 @@ public class HelloOthers {
         System.out.println("Helló Maris!");
         System.out.println("Helló Józsi!");
 
-
     }
 }

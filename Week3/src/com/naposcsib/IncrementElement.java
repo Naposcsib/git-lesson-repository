@@ -13,6 +13,5 @@ public class IncrementElement {
 
         System.out.println(numbers[2]);
 
-
     }
 }
