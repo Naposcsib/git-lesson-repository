@@ -1,0 +1,54 @@
+1.Gyakorlat - Milyen problémát okozhat, hogy szekvenciális projektek végén van a tesztelés jelentõs része?
+
+A hibák nagy része csak utólag derül ki, így sokkal kevésbé tervezhetõ azok megoldására szánható idõ. Ez határidõs csúszásokhoz vezethet.
+Pontos tervezés, annak ellenõrzése, korai tesztelés vagy az iteratív modellek nyújthatna megoldást erre a problémára.
+
+2.Gyakorlat - Fõszereplõk az egyes fázisokban
+
+Requirement analysis - Megrendelõ, IT üzleti elemzõ, követelménymérnök
+Design - Fejlesztõ/Tervezõ mérnök , Projektmenedzser
+Implementation - Fejlesztõ
+Testing - Tesztelõ
+Deployment, release - Megrendelõ
+Maintenance, Evolution - Üzemeltetõ, kulcs felhasználó
+
+3.Gyakorlat - Együttmûködés a többi szereplõvel
+
+Fejlesztõ
+Teszt menedzser
+Projekt menedzser
+
+4.Gyakorlat - Ellentmondás feloldása
+
+Projektmenedzser, mert õ segíti a kommunikációt a felek között.
+
+5.Gyakorlat - Tesztelõk terhelése
+
+A tesztelõ projekt elején gyûjthet információkat a projektrõl és a dokumentációk átnézésével felkészülhet a tesztesetekre.
+Elõkészítheti a dokumentációkat. 
+Ellenõrizhetné a szoftver akruális készenléti dokumentációit, állapotait.
+
+6.Gyakorlat - Mi történik, amikor hibát találunk?
+ 
+Projektmenedzser - az ütemterv miatt stresszt érezhet, mert agyalnia kell, hogyan oldja meg, hogy ne legyen csúszás.
+Fejlesztõ - kicsit mérges lehet vagy szintén stresszes, senki sem szeret hibázni, fõleg ha még erre rá is világítanak.
+
+7.Gyakorlat - Probléma kommuikálása.
+Címzett: minden projektben közvetlenül érintett munkatárs.
+Kedves Munkatársak!
+
+Az Abc-projekt tesztelésekor sajnos azt tapasztaltam, hogy 10 perc használat után még mindig hibát ad a rendszer.
+Hibaüzenet kiséretében leáll, majd csak a böngészési elõzmények törlésével tudom újra használni.
+A szoftver átadásának határideje holnapután van, szóval jó lenne, minél hamarabb kiküszöbölni a hibát.
+
+Köszönettel: Jáhn Beáta
+
+8.Gyakorlat - Fejlesztõ munkájának véleményezése
+
+Kedves Fejlesztõ munkatárs!
+
+Az új ablak nagyon sokszínû lett, látszik, hogy sok munka volt vele. Viszont nem ártana neki egy kis finomhangolás a következõ szempontok szerint:
+- A jobb átláthatóság érdekében egyszerûsíteni kellene rajta, hogy a felhasználóknak is átláthatóbb legyen és könnyebben megértsék a mûködését
+- Ha az egészet külön szednéd két ablakba (ajtók listája, egy kiválasztott ajtó konfigurálása) akkor minden bizonnyal gyorsabban betöltene, ezt így kicsit lassúnak találtam.
+- Emellett átgondolandó az ikonok használatának egyszerûsítése, hogy jobban illeszkedjenek az alkalmazás külsejéhez. (Ha elfogadod, szívesen tehetek pár javaslatot ezzel kapcsolatban. :) )
+Köszönettel: Jáhn Beáta.
