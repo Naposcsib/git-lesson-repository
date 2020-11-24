@@ -6,17 +6,18 @@ Pontos tervezés, annak ellenõrzése, korai tesztelés vagy az iteratív modellek ny
 2.Gyakorlat - Fõszereplõk az egyes fázisokban
 
 Requirement analysis - Megrendelõ, IT üzleti elemzõ, követelménymérnök
-Design - Fejlesztõ/Tervezõ mérnök , Projektmenedzser
-Implementation - Fejlesztõ
-Testing - Tesztelõ
-Deployment, release - Megrendelõ
-Maintenance, Evolution - Üzemeltetõ, kulcs felhasználó
+Design - Fejlesztõk/Tervezõ mérnök , Projektmenedzser
+Implementation - Fejlesztõk
+Testing - Tesztelõk
+Deployment, release - Megrendelõ, fejlesztõk
+Maintenance, Evolution - Üzemeltetõ, kulcs felhasználó, megrendelõ
 
 3.Gyakorlat - Együttmûködés a többi szereplõvel
 
 Fejlesztõ
 Teszt menedzser
 Projekt menedzser
+It üzleti elemzõ
 
 4.Gyakorlat - Ellentmondás feloldása
 

@@ -1,0 +1,100 @@
+1.Gyakorlat - Nem tesztelhető követelmények
+
+"A kalkulátor gyorsan adja ki az eredményt."
+"Minden böngészőben működjön."
+"Mindig pontos eredményt adjon."
+"Nézzen ki jól, élénk színeket használjanak."
+"Legyenek a reklámok feltűnő helyeken."
+
+2.Gyakorlat - Követelmények javítása
+
+"Az éttermek legyenek piros színű ikonnal jelölve a térképen."
+"Az étterem listában legalább 10 éttermet fel kell tüntetni mobilos kijelzőkön is."
+"Az alkalmazás listájában az éttermek leírásának csak első 20 karakterét mutassa.
+ A listaelemre kattintva felugró ablakban jelenjen meg a teljes leírás."
+"Az étterem értékelési pontjainak átlagát - egy tizedesjegy pontossággal kerekítve - az étterem nevétől jobbra kell megjeleníteni."
+"Az éppen aktuális felhasználó saját véleménye az első lapon jelenjen meg a többi vélemény között, hogy elsőként a sajátját láthassa."
+
+3.Gyakorlat - Követelmények írása 
+
+Weboldal felsőoktatási intézmények értékelésére
+
+A. Az intézmények listáját csak a az adminisztrátorok bővíthetik és kategorizálhatják.  (3)
+B. Csak regisztrált tagok értékelhetnek. (2)
+C. Pontszám 1-től 5-ig és szöveges értékelési mezők kellenek. (1)
+D. Az értékelések törölhetők/módosíthatók legyenek. (4)
+E. Az intézményekből szempontok szerint legyenek szűrhetők a listák. (5)
+
+A1. Adminisztrátor felület.
+A2. Intézmény felvétele mező.
+A3. Intézmény kategória mező.
+A4. Egy táblázat a mezők alatt, ahol a már felvett intézmények lesznek feltüntetve.
+	Intézmény neve - Kategória - Város - Értékelések száma - Értékelések átlaga.
+A5. Legyen minden felvett intézményhez törlés/módosítás gomb a táblázat utolsó 
+A6. Törlés gombra kattintva - "Biztos hogy törli?" ablak megerősítés gombbal.
+A7. Módosítás gombra kattintva intézmény felvétele mezőben jelenjen meg az intézmény neve és kategóriája szerkeszthető formában.
+
+B1. Bejelentkezési/Regisztrációs felület belépési adatmezőkkel.
+B2. E-mail cím
+B3. Jelszó
+B4. Jelsó megerősítés
+B5. Regisztráció gomb
+
+C1. Értékelési felület
+C2. Intézmények legördíthető menü, ahonnan az adminisztrátor által felvitt intézménylistából választhat a felhasználó
+	(Ehelyett lehetnek Intézményi kártyák, amelyből kényelmesebben lehet választani)
+C3. Pontszám mező, választható 1-5 pontokkal.
+C4. Szöveges értékelési mező
+C5. Értékelés elküldése gomb
+C6. Mégse gomb
+
+D1. Az adminisztrátor felületen megjelenő táblázat jelenjen meg a felhasználói felületen a törlés/módosítás gombok cseréjével.
+D2. Értékelés törlése/módosítása gomb az intézmények neve mellé
+D3. Törlés gombra kattintva felugró ablak - "Biztosan törtli az értékelést?" kérdéssel.
+D4. Módosítás gombra kattintva jelenjen meg a szerkeszthető felület a korábban beírt szövegekkel.
+
+E1. Táblázat fejlécei kattinthatók legyenek és adott szempont szerint rendezzenek sorba Abc-sorrendben vagy érték szerint.
+E2. Második kattintásra fordított sorrend jelenjen meg
+E3. Jobb felső sarokban kilépés gomb
+
+4.Gyakorlat - Követelmények írása 1.
+
+Viber
+
+A. Telefonszámokkal összekapcsolható online chatalkalmazás (P1)
+B. Legyen benne hanghívás online kapcsolaton keresztül (P2)
+C. Legyen benne videohívás online kapcsolaton keresztül (P3)
+D. Legyen lehetőség csoportok létrehozására a csoportos beszélgetésekhez (P4)
+E. Legyen bennek file és fénykép küldési lehetőség mind egyénileg, mind a csoportokba (P5)
+
+(P1)	1. A főoldalon jelenjenek meg a legutóbbi beszélgetések időrendben - felül legyen a legutóbbi beszélgetés
+(P1)	2. A menüsor alul jelenjen meg vízszintesen csevegés, hívás menükkel
+(P2)	3. Legyen benne lehetőség keresni a névjegyek között.
+(P5)	4. Lehessen a saját profilhoz képet hozzáadni.
+(P5)	5. Küldjön értesítéseket a telefonra - ez legyen beállítható egy checkbox-szal.
+(P1)	6. Csevegésben legyen lehetőség azonnali hang-/videohívásra
+(P2)	7. Csevegésben lehessen Képeket/fájlokat küldeni.
+(P3)	8. Csevegésben legyenek választható hangulatjelek egy külön menüpontban az írás mező alatt
+(P4)	9. Csevegésben legyen fényképezési lehetőség ami a telefon kameráját használja
+(P2)	10. Lehessen az üzeneteket törölni/szerkeszteni
+(P5)	11. Legyen a csevegésben egy beállítás a jövőbeni üzenetek automatikus eltűntetésére.
+(P3)	12. Legyen a csevegésben hangfelvevő azonnali hangfelvétel küldéséhez - korlátozott minőséggel és időtartammal (ide konkrét adatokat írnék)
+(P3)	13. Legyen a csevegésben videofelvevő azonnali videoüzenet küldéséhez - korlátozott felbontással és időtartammal (ide is konkrét adatokat írnék)
+(P2)	14. Lehessen kontaktokat megosztani.
+(P5)	15. Lehessen helyadatokat is küldeni.
+
+
+
+
+
+6.Gyakorlat - Tesztelhetőség a követelményekben
+
+"Az éttermek listája jelenjen meg a belépéstől számított 3s-on belül."
+"A kereső felület legyen egyszerű, könnyen átlátható, 2-3 funkcióval."
+"Az étterem kereső működjön Windowson, apple és androidos rendszereken is."
+"Az értékelés gombot megnyomva 3s-on belül jelenjen meg a felületen is a pontszám."
+"A felület támogassa a következő mobilos kényelmi funkciókat: ...."
+"A felület színeiben domináljon a barackvirág és a halványzöld szín fehér alapon."
+"Az étterem tulajdonos bejelentkezése legyen biztonságos jelszóval védett."
+"Az éttermek elhelyezését biztosítani kell Google térképek alkalmazásra."
+"A GPS pozíciónkat és térképre helyezését utca házszám pontossággal kell megadni."
