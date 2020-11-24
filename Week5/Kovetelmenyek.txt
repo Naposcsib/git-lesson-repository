@@ -83,8 +83,31 @@ E. Legyen bennek file és fénykép küldési lehetőség mind egyénileg, mind 
 (P2)	14. Lehessen kontaktokat megosztani.
 (P5)	15. Lehessen helyadatokat is küldeni.
 
+5.Gyakorlat - Követelmények írása 3.
 
+GMail
 
+A. E-mailes levelezőrendszer, amely menüsorban kategorizálja az üzeneteket.
+B. Tárolja az e-mail címeket, lehessen küldeni levelet egy adott e-mail címre vele.
+C. Legyenek elérhetőek a Google megadott alkalmazásai a levelezőrendszerből (Google naptár, Google-fiók, Térkép, stb)
+D. Legyen elérhető több böngészőből - Chrome, Edge, Firefox
+E. Legyen elérhető mobilos eszközökről aplikáció formájában - Android, Apple
+
+(P1)	1. Főoldalon jelenjenek meg a beérkező levelek 
+(P1)	2. Oldalt legyen egy menüsor szűrési szempontok szerint (Beérkező, Elküldött, Piszkozat, stb..)
+(P2)	3. Lehessen keresni a levelek között
+(P4)	4. Tudjon csatlakozni a Google applikációkhoz.(Ide lehetne konkrétumokat írni)
+(P5)	5. Lehessen mappákba rendezni az üzeneteket
+(P1)	6. Lehessen törölni, elsőként a kuka mappába tegye a törölt e-maileket
+(P1)	7. Legyen benne levélírás funkció
+(P2)	8. Mentse az e-mail címeket
+(P3)	9. Kapcsolódjon a Google-fiókhoz.
+(P2)	10. Legyen benne spam-szűrő - spam mappa
+(P2)	11. Legyen benne súgó
+(P1)	12. Legyen elérhető a megadott böngészőkből: Google Chrome, Firefox, Microsoft Edge
+(P1)	13. Legyen elérhető mobilos eszközökről: Android, Apple
+(P3)	14. Lehessen csoportos e-mailt küldeni
+(P5)	15. Legyen benne reklámszűrő - a promóciós mappa
 
 
 6.Gyakorlat - Tesztelhetőség a követelményekben
