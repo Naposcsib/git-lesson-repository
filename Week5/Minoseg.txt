@@ -1,0 +1,79 @@
+1.Gyakorlat - Minõség
+
+Autó: 	- Kényelmes
+	- Könnyen irányítható
+	- Stabil
+	- Biztonságos
+	- Keveset "eszik"
+	- Könnyen javítható
+
+Lakás: 	- Biztonságos
+	- Jól szigetelt (hõ és zaj)
+	- Jó helykihasználású, könnyen berendezhetõ
+	- Alacsony a rezsije
+	- Nincsenek benne rejtett hibák
+	- Stabil
+	- Jól szellõztethetõ
+
+2.Gyakorlat - Szoftver minõség
+
+	- Mûködése legyen az elvártnak megfelelõ (fõbb funkciói mûködjenek)
+	- Ne fagyjon le a rendszer 1 óra használat után se
+	- Támogassa a népszerû böngészõket (Chrome, Edge, Firefox)
+	- Mobil eszközökön is legyen könnyen kezelhetõ
+	- Legyen ergonomikus és esztétikus, fehér alapszínnel, és 2-3 plusz szín bevonásával
+	- Éves szinten a kiesés ne legyen több 100 óránál.
+	- Ha mégis összeomlana valamilyen oknál fogva, ne legyen adatvesztés
+	- A jelszavakat titkosítva tárolja
+
+Jó minõségû: 	Gmail - megbízhatóan továbbítja az üzeneteket, kényelmes, mobilról is használható, szûri a spameket és a reklámokat, tárolja az e-mail címeket
+		Viber - értesít az üzenetekrõl, nagy fájlokat/képeket is lehet vele küldeni, nemszokott lefagyni még videohívás közben sem, nem nyom reklámot a felhasználó arcába
+		Google Chrome - kényelmesen lehet böngészni vele, nem szokott lefagyni, jól futnak benne a weboldalak, ha mégis valami zavaró hiba lenne, gyorsan kijön a frissítése
+
+Rossz minõségû:	Msn - bugos, lefagyott sokszor, leszedálta a gépet, hagyta, hogy a chatben mindenféle karakterláncokhoz emojikat rendeljen és emiatt néha átláthatatlanná váltak az üzenetek.
+		Skype - telefonon minden frissítéssel egyre több erõforrást zabált, lefagyasztotta a telefont, megbízhatatlan volt a mûködése.
+		Hangouts - rossz minõségû videobeszélgetések sokszor még ki is fagytak LG-n, nagy fileokat nem nagyon támogatta, videoüzenetet nem igazán tolerálta.
+		Explorer - a sok toldozgatás-foltozgatás ellenére rengeteg hibája volt, már ki is vonták a forgalomból.
+
+3.Gyakorlat - Minõség kategóriák
+
+	1. - Teljesítmény hatékonyság (Performance Efficiency)
+	2. - Funkcionális alkalmasság (Functional Suitability)
+	3. - Biztonság (Security)
+	4. - Funkcionális alkalmasság (Functional Suitability)
+	5. - Megbízhatóság (Reliability)
+	6. - Kompatibilitás (Compatibility)
+	7. - Karbantarthatóság (Maintainability)
+	8. - Hordozhatóság (Portability)
+	9. - Biztonság (Security)
+
+4.Gyakorlat - Minõségjellemzõkkel kapcsolatos követelmények
+
+	Funkcionális alkalmasság - a kosár menüben jelenjen meg a kosár tartalma
+	Teljesítmény hatékonyság - Kattintás után 3 mp-en belül jelenjen meg a következõ oldal
+	Kompatibilitás - asználható legyen Google Chrome, Edge valamint Firefox böngészõkbõl.
+	Használhatóság - a termékek típus szerint legyenek kategorizálva, a kategóriák pedig egy menüben feltüntetve, jól látható helyen legyenek.
+	Megbízhatóság - a kosár tartalma ne vesszen el, ha a honlapon máshová ellépünk
+	Biztonság - csak regisztrált felhasználó vásárolhat, csak adminisztrátor adhat hozzá/törölhet árut
+	Karbantarthatóság - a kínálathoz könnyedén lehessen hozzáadni és elvenni árut az adminisztrátor által
+	Hordozhatóság - a vásárlás számlalevele (itt meg lehet adni nyomtatótípusokat) kinyomtatható legyen az adminisztrátor számára.
+
+5.Gyakorlat - Reszponzív tervezés
+
+Jó reszponzív tervezés: - Mutatóujjal is használható a menü, nem foglal helyet a mobilnézetben
+			- A betûk mindig jól olvasható méretûek
+			- Fluid megjelenés - alkalmazkodik a kijelzõ méretéhez
+			- A képek is átméretezõdnek
+
+Rossz reszponzív tervezés: 	- Kilóg a képernyõ, csúszkák jelennek meg alul és/vagy felül
+				- Ujjal nem, vagy csak korlátozottan irányítható (nem méretezhetõ)
+				- A betûméret mobilon túl kicsi vagy túl nagy, így alig olvasható
+
+6.Gyakorlat - Konzitósztens stílusú weboldal
+
+Jó weboldal kialakítás - A lapok stílusban megegyeznek, Navigációs sávok ugyanott vannak szinte minden lapon, Könnyen használható menüpontok
+
+Rossz weboldal kialakítás - Minden lapon más stílus, színben eltérõ kialakítás, navigációs sávok random helyeken.
+
+
+		 
