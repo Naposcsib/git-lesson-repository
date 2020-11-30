@@ -75,5 +75,18 @@ Jó weboldal kialakítás - A lapok stílusban megegyeznek, Navigációs sávok ugyanot
 
 Rossz weboldal kialakítás - Minden lapon más stílus, színben eltérõ kialakítás, navigációs sávok random helyeken.
 
+7.Gyakorlat - Minõségjellemzõk
 
+Microsoft Word 	- Szövegek írása
+		- Szövegek mentése
+		- Szövegek formázása
+
+Angry Birds - nem ismerem
+
+Ubuntu Linux - nem ismerem
+
+Gmail	- megbízhatóan továbbítja az üzeneteket
+	- rendszerezi az üzeneteket
+	- mobilról is használható
+	- szûri a spameket és a reklámokat
 		 

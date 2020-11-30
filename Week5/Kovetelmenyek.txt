@@ -8,12 +8,12 @@
 
 2.Gyakorlat - Követelmények javítása
 
-"Az éttermek legyenek piros színű ikonnal jelölve a térképen."
-"Az étterem listában legalább 10 éttermet fel kell tüntetni mobilos kijelzőkön is."
+"Az éttermek legyenek felüntetve a térképen."
+"Az étterem listában min. 10 max. 15 étterem jelenjen meg. A megjelenítés legyen reszponzív."
 "Az alkalmazás listájában az éttermek leírásának csak első 20 karakterét mutassa.
- A listaelemre kattintva felugró ablakban jelenjen meg a teljes leírás."
-"Az étterem értékelési pontjainak átlagát - egy tizedesjegy pontossággal kerekítve - az étterem nevétől jobbra kell megjeleníteni."
-"Az éppen aktuális felhasználó saját véleménye az első lapon jelenjen meg a többi vélemény között, hogy elsőként a sajátját láthassa."
+ A listaelemre kattintva jelenjen meg a teljes leírás."
+"Az étterem értékelési pontjainak átlagát pontosan kell megjeleníteni és meg kell jeleníteni."
+"Az éppen aktuális bejelentkezett felhasználó saját véleménye az első lapon jelenjen meg a többi vélemény között."
 
 3.Gyakorlat - Követelmények írása 
 
@@ -93,8 +93,8 @@ C. Legyenek elérhetőek a Google megadott alkalmazásai a levelezőrendszerből
 D. Legyen elérhető több böngészőből - Chrome, Edge, Firefox
 E. Legyen elérhető mobilos eszközökről aplikáció formájában - Android, Apple
 
-(P1)	1. Főoldalon jelenjenek meg a beérkező levelek 
-(P1)	2. Oldalt legyen egy menüsor szűrési szempontok szerint (Beérkező, Elküldött, Piszkozat, stb..)
+(P1)	1. Jelenjenek meg a beérkező levelek 
+(P1)	2. Legyen egy menüsor szűrési szempontok szerint (Beérkező, Elküldött, Piszkozat, stb..)
 (P2)	3. Lehessen keresni a levelek között
 (P4)	4. Tudjon csatlakozni a Google applikációkhoz.(Ide lehetne konkrétumokat írni)
 (P5)	5. Lehessen mappákba rendezni az üzeneteket
@@ -113,7 +113,7 @@ E. Legyen elérhető mobilos eszközökről aplikáció formájában - Android, 
 6.Gyakorlat - Tesztelhetőség a követelményekben
 
 "Az éttermek listája jelenjen meg a belépéstől számított 3s-on belül."
-"A kereső felület legyen egyszerű, könnyen átlátható, 2-3 funkcióval."
+"A kereső felület legyen prediktív kereső."
 "Az étterem kereső működjön Windowson, apple és androidos rendszereken is."
 "Az értékelés gombot megnyomva 3s-on belül jelenjen meg a felületen is a pontszám."
 "A felület támogassa a következő mobilos kényelmi funkciókat: ...."

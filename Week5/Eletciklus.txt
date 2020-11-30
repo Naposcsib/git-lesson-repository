@@ -1,16 +1,17 @@
 1.Gyakorlat - Milyen problémát okozhat, hogy szekvenciális projektek végén van a tesztelés jelentõs része?
 
+Kevés idõ marad a tesztelésre. 
 A hibák nagy része csak utólag derül ki, így sokkal kevésbé tervezhetõ azok megoldására szánható idõ. Ez határidõs csúszásokhoz vezethet.
 Pontos tervezés, annak ellenõrzése, korai tesztelés vagy az iteratív modellek nyújthatna megoldást erre a problémára.
 
 2.Gyakorlat - Fõszereplõk az egyes fázisokban
 
-Requirement analysis - Megrendelõ, IT üzleti elemzõ, követelménymérnök
-Design - Fejlesztõk/Tervezõ mérnök , Projektmenedzser
-Implementation - Fejlesztõk
-Testing - Tesztelõk
-Deployment, release - Megrendelõ, fejlesztõk
-Maintenance, Evolution - Üzemeltetõ, kulcs felhasználó, megrendelõ
+Requirement analysis - Megrendelõ, IT üzleti elemzõ, Projektmenedzser
+Design - Designer, Megrendelõ - Üzleti elemzõ, PM, Fejlesztõ, Architekt
+Implementation - Fejlesztõ, - PM, Tesztelõ
+Testing - Tesztelõ, Fejlesztõ, PM
+Release - Üzemeltetõ, fejlesztõk, tesztelõ
+Maintenance, Evolution - Üzemeltetõ, tesztelõ, fejlesztõ, megrendelõ
 
 3.Gyakorlat - Együttmûködés a többi szereplõvel
 
@@ -18,6 +19,8 @@ Fejlesztõ
 Teszt menedzser
 Projekt menedzser
 It üzleti elemzõ
+Megrendelõ
+Kulcs felhasználó
 
 4.Gyakorlat - Ellentmondás feloldása
 
