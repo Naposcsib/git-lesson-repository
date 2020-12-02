@@ -40,23 +40,23 @@ Rossz minõségû:	Msn - bugos, lefagyott sokszor, leszedálta a gépet, hagyta, hogy
 	1. - Teljesítmény hatékonyság (Performance Efficiency)
 	2. - Funkcionális alkalmasság (Functional Suitability)
 	3. - Biztonság (Security)
-	4. - Funkcionális alkalmasság (Functional Suitability)
+	4. - Használhatóság (Usability)
 	5. - Megbízhatóság (Reliability)
-	6. - Kompatibilitás (Compatibility)
-	7. - Karbantarthatóság (Maintainability)
-	8. - Hordozhatóság (Portability)
+	6. - Hordozhatóság (Portability)
+	7. - Megbízhatóság (Reliability)
+	8. - Kompatibilitás (Compatibility)
 	9. - Biztonság (Security)
 
 4.Gyakorlat - Minõségjellemzõkkel kapcsolatos követelmények
 
 	Funkcionális alkalmasság - a kosár menüben jelenjen meg a kosár tartalma
 	Teljesítmény hatékonyság - Kattintás után 3 mp-en belül jelenjen meg a következõ oldal
-	Kompatibilitás - asználható legyen Google Chrome, Edge valamint Firefox böngészõkbõl.
-	Használhatóság - a termékek típus szerint legyenek kategorizálva, a kategóriák pedig egy menüben feltüntetve, jól látható helyen legyenek.
+	Kompatibilitás - kompatibilis legyen Google Chrome, Edge valamint Firefox böngészõkbõl, számla nyomtatás lehetséges legyen.
+	Használhatóság - logikus, rendezhetõség, átlátható
 	Megbízhatóság - a kosár tartalma ne vesszen el, ha a honlapon máshová ellépünk
-	Biztonság - csak regisztrált felhasználó vásárolhat, csak adminisztrátor adhat hozzá/törölhet árut
-	Karbantarthatóság - a kínálathoz könnyedén lehessen hozzáadni és elvenni árut az adminisztrátor által
-	Hordozhatóság - a vásárlás számlalevele (itt meg lehet adni nyomtatótípusokat) kinyomtatható legyen az adminisztrátor számára.
+	Biztonság - fizetési biztonságok, jelszavak, GDPR
+	Karbantarthatóság - a kosár tartalma visszaállítható legyen
+	Hordozhatóság - Könnyen áttehetõ legyen másik oprendszerre
 
 5.Gyakorlat - Reszponzív tervezés
 
@@ -69,24 +69,10 @@ Rossz reszponzív tervezés: 	- Kilóg a képernyõ, csúszkák jelennek meg alul és/va
 				- Ujjal nem, vagy csak korlátozottan irányítható (nem méretezhetõ)
 				- A betûméret mobilon túl kicsi vagy túl nagy, így alig olvasható
 
-6.Gyakorlat - Konzitósztens stílusú weboldal
+6.Gyakorlat - Konzisztens stílusú weboldal
 
 Jó weboldal kialakítás - A lapok stílusban megegyeznek, Navigációs sávok ugyanott vannak szinte minden lapon, Könnyen használható menüpontok
 
 Rossz weboldal kialakítás - Minden lapon más stílus, színben eltérõ kialakítás, navigációs sávok random helyeken.
 
-7.Gyakorlat - Minõségjellemzõk
-
-Microsoft Word 	- Szövegek írása
-		- Szövegek mentése
-		- Szövegek formázása
-
-Angry Birds - nem ismerem
-
-Ubuntu Linux - nem ismerem
-
-Gmail	- megbízhatóan továbbítja az üzeneteket
-	- rendszerezi az üzeneteket
-	- mobilról is használható
-	- szûri a spameket és a reklámokat
 		 
