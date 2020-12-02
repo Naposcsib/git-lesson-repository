@@ -1,0 +1,91 @@
+
+
+IÉR-Intézmény értékelő rendszer
+Követelmény Specifikáció
+Dátum: 2020.12.01.
+Verzió: V0.1
+Dokumentum információk
+Szerző:Naposcsibe
+Létrehozás dátuma: 2020.12.01.
+Fájl neve: ErtekeloKovetelmenySpecifikacio.txt
+Utolsó módosító neve: Naposcsibe
+Utolsó módosítás dátuma: 2020.12.01.
+Kategória: Alkalmazás
+
+Változtatási történet
+Ez a dokumentum első verziója, módosítás nem történt.
+
+Tartalomjegyzék
+Bevezetés..................................................................................................
+Specifikáció célja........................................................................................
+Hatókör......................................................................................................
+Szójegyzék..................................................................................................
+Hivatkozások..............................................................................................
+Összefoglaló leírás......................................................................................
+Üzleti előnyök.............................................................................................
+Felhasználói szerepkörök............................................................................
+Áttekintő diagram.....................................................................................
+Interfészek.................................................................................................
+Funkciók.....................................................................................................
+
+Bevezetés
+Az IÉR egy olyan szoftver, amellyel a felsőoktatási intézmények diákjai értékelni tudják azokat a felsőoktatási intézményeket, amelyekben tanulnak.
+Specifikáció célja
+A dokumentum teljeskörűen leírja az IÉR működését és a működés néhány nemfunkcionális elemét. Bemutatja a felhasználói csoportokat és az általuk használható funkciókat.
+Hatókör
+A dokumentum az IÉR alkalmazás funkcióiról szól. Nem célunk a futtató számítógép és a rendszer egyéb hardver elemeinek bemutatása.
+Nem célunk az alkalmazáshoz kapcsolódó külső rendszerek ismertetése, sem a kapcsolódó rendszerek leírása. Csak a felhasználó által látható szoftveres felületet tárgyaljuk, nem foglalkozunk a rendszer belső felépítésével, a használt technológiákkal.
+
+Szójegyzék
+IÉR - IÉR-Intézmény értékelő rendszer
+Összefoglaló leírás
+Ez egy olyan szoftver, amivel a diákok értékelni tudják az intézményeket egy 5 fokozatú skálán, illetve szövegesen. Minden regisztrált diák az általa használt intézményt értékelheti és intézményenként egy szavazatot és egy szóbeli értékelést adhat le, módosíthat illetve törölhet. Az intézményeket adminisztrátor viheti fel. Az intézményeket szűrni is lehet bizonyos tulajdonságaik alapján, amelyeket a későbbiekben fejtünk ki.
+Célok
+A szoftver segíségével átfogó képet kaphatunk az intézmények népszerűségéről a hallgatók szemszögéből és ezen információkat másokkal is megoszthatjuk közérdekű információként.
+Felhasználói szerepkörök
+Diák - Ő az, aki értékelheti az intézményeket és aki a többi intézmény értékeléseit is láthatja illetve szűrheti.
+Adminisztrátor - Intézményeket adhat hozzá és törölhet. Ő moderálja a felületen közzétett véleményeket.
+Áttekintő diagram, használati eset diagram
+ 
+Útvonalak:
+Interfészek
+
+Funkciók
+
+A. Az intézmények listáját csak a az adminisztrátorok bővíthetik és kategorizálhatják.  (3)
+B. Csak regisztrált tagok értékelhetnek. (2)
+C. Pontszám 1-től 5-ig és szöveges értékelési mezők kellenek. (1)
+D. Az értékelések törölhetők/módosíthatók legyenek. (4)
+E. Az intézményekből szempontok szerint legyenek szűrhetők a listák. (5)
+
+A1. Adminisztrátor felület.
+A2. Intézmény felvétele mező.
+A3. Intézmény kategória mező.
+A4. Egy táblázat a mezők alatt, ahol a már felvett intézmények lesznek feltüntetve.
+	Intézmény neve - Kategória - Város - Értékelések száma - Értékelések átlaga.
+A5. Legyen minden felvett intézményhez törlés/módosítás gomb a táblázat utolsó 
+A6. Törlés gombra kattintva - "Biztos hogy törli?" ablak megerősítés gombbal.
+A7. Módosítás gombra kattintva intézmény felvétele mezőben jelenjen meg az intézmény neve és kategóriája szerkeszthető formában.
+
+B1. Bejelentkezési/Regisztrációs felület belépési adatmezőkkel.
+B2. E-mail cím
+B3. Jelszó
+B4. Jelsó megerősítés
+B5. Regisztráció gomb
+
+C1. Értékelési felület
+C2. Intézmények legördíthető menü, ahonnan az adminisztrátor által felvitt intézménylistából választhat a felhasználó
+	(Ehelyett lehetnek Intézményi kártyák, amelyből kényelmesebben lehet választani)
+C3. Pontszám mező, választható 1-5 pontokkal.
+C4. Szöveges értékelési mező
+C5. Értékelés elküldése gomb
+C6. Mégse gomb
+
+D1. Az adminisztrátor felületen megjelenő táblázat jelenjen meg a felhasználói felületen a törlés/módosítás gombok cseréjével.
+D2. Értékelés törlése/módosítása gomb az intézmények neve mellé
+D3. Törlés gombra kattintva felugró ablak - "Biztosan törtli az értékelést?" kérdéssel.
+D4. Módosítás gombra kattintva jelenjen meg a szerkeszthető felület a korábban beírt szövegekkel.
+
+E1. Táblázat fejlécei kattinthatók legyenek és adott szempont szerint rendezzenek sorba Abc-sorrendben vagy érték szerint.
+E2. Második kattintásra fordított sorrend jelenjen meg
+E3. Jobb felső sarokban kilépés gomb
